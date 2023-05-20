@@ -8,6 +8,11 @@ export default function App() {
             Button
           </a>
         </li>
+        <li>
+          <a href="/toggle-button" target="_blank">
+            Toggle Button
+          </a>
+        </li>
       </ul>
     </>
   );

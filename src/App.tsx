@@ -4,14 +4,10 @@ export default function App() {
       <h1>Component</h1>
       <ul>
         <li>
-          <a href="/button" target="_blank">
-            Button
-          </a>
+          <a href="/button">Button</a>
         </li>
         <li>
-          <a href="/toggle-button" target="_blank">
-            Toggle Button
-          </a>
+          <a href="/toggle-button">Toggle Button</a>
         </li>
       </ul>
     </>

@@ -19,6 +19,9 @@ dependencies:
   react-router-dom:
     specifier: ^6.11.2
     version: 6.11.2(react-dom@18.2.0)(react@18.2.0)
+  react-stately:
+    specifier: ^3.22.0
+    version: 3.22.0(react@18.2.0)
   sort-by:
     specifier: ^1.2.0
     version: 1.2.0
@@ -2428,6 +2431,16 @@ packages:
       react: 18.2.0
     dev: false
 
+  /@react-stately/data@3.9.1(react@18.2.0):
+    resolution: {integrity: sha512-UClgI8jQTF3hVR/WLa2ht7Gjd2x2PRnYycDmfY+mfbd+ONBD7rX/m3KWGgrR8AvO05qSpQoSlab8D+cfLXvgWA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
+    dependencies:
+      '@react-types/shared': 3.18.0(react@18.2.0)
+      '@swc/helpers': 0.4.14
+      react: 18.2.0
+    dev: false
+
   /@react-stately/datepicker@3.4.0(react@18.2.0):
     resolution: {integrity: sha512-JiRQBQYDXOQDdJl5YUGob10aVYp2N/F5rSSkRt7MrBJhC87bkDW0ARfs83gnl398WOJ6d9rJp0f+CJa1mjtzUw==}
     peerDependencies:
@@ -4234,6 +4247,36 @@ packages:
       react: '>=16.8'
     dependencies:
       '@remix-run/router': 1.6.2
+      react: 18.2.0
+    dev: false
+
+  /react-stately@3.22.0(react@18.2.0):
+    resolution: {integrity: sha512-w5itlPtjfUpxy+195LxRbaCNaGN1NVfPHelhYXuoPoKNgUvmy54uKXvP1Ek1ETZ9e55BaXuMs83yXv94wIMdpQ==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
+    dependencies:
+      '@react-stately/calendar': 3.2.0(react@18.2.0)
+      '@react-stately/checkbox': 3.4.1(react@18.2.0)
+      '@react-stately/collections': 3.7.0(react@18.2.0)
+      '@react-stately/combobox': 3.5.0(react@18.2.0)
+      '@react-stately/data': 3.9.1(react@18.2.0)
+      '@react-stately/datepicker': 3.4.0(react@18.2.0)
+      '@react-stately/dnd': 3.2.0(react@18.2.0)
+      '@react-stately/list': 3.8.0(react@18.2.0)
+      '@react-stately/menu': 3.5.1(react@18.2.0)
+      '@react-stately/numberfield': 3.4.1(react@18.2.0)
+      '@react-stately/overlays': 3.5.1(react@18.2.0)
+      '@react-stately/radio': 3.8.0(react@18.2.0)
+      '@react-stately/searchfield': 3.4.1(react@18.2.0)
+      '@react-stately/select': 3.5.0(react@18.2.0)
+      '@react-stately/selection': 3.13.0(react@18.2.0)
+      '@react-stately/slider': 3.3.1(react@18.2.0)
+      '@react-stately/table': 3.9.0(react@18.2.0)
+      '@react-stately/tabs': 3.4.0(react@18.2.0)
+      '@react-stately/toggle': 3.5.1(react@18.2.0)
+      '@react-stately/tooltip': 3.4.0(react@18.2.0)
+      '@react-stately/tree': 3.6.0(react@18.2.0)
+      '@react-types/shared': 3.18.0(react@18.2.0)
       react: 18.2.0
     dev: false
 

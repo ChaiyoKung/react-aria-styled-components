@@ -7,7 +7,7 @@ export default function App() {
           <a href="/button">Button</a>
         </li>
         <li>
-          <a href="/toggle-button">Toggle Button</a>
+          <a href="/toggle-button">ToggleButton</a>
         </li>
       </ul>
     </>

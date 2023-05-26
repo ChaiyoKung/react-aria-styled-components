@@ -9,6 +9,9 @@ export default function App() {
         <li>
           <a href="/toggle-button">ToggleButton</a>
         </li>
+        <li>
+          <a href="/combo-box">ComboBox</a>
+        </li>
       </ul>
     </>
   );
